@@ -1,0 +1,9 @@
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-item, h3{
+    color: brown;
+}
