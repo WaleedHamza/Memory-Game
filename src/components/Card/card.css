@@ -8,8 +8,15 @@
   }
 
 .card :hover{
+  transition: all .4s ease-in-out; 
   transform: scale(1.1);
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+.card ::after{
+  /* transition: all .4s ease-in-out; 
+  -webkit-transition: all 0.3s ease 0s; 
+  transform: scale(1.0); */
+  /* box-shadow: 0 3px 6px #999, 0 3px 6px #999; */
 }
 
 .card:active {

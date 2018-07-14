@@ -13,9 +13,9 @@ const Nav = props => (
 
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav container">
-                  <div className="nav-item nav-link" ><h3>Score</h3><a><span className="sr-only">(current)</span></a>
+                  <div className="nav-item nav-link" ><h3>Score</h3><span>{props.score}</span>
                     </div>
-                  <div className="nav-item nav-link" ><h3>Highest Score</h3>
+                  <div className="nav-item nav-link" ><h3>Highest Score</h3><span>{props.highestScore}</span>
                     </div>
                 </div>
               </div>
