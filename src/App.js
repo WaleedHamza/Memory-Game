@@ -5,6 +5,8 @@ import Card from "./components/Card";
 import initialFaces from "./faces.json";
 import Container from "./Container";
 import Row from "./Row";
+
+
 function shuffleCards(faces) {
   for (let i = faces.length -1 ; i > 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
@@ -47,14 +49,6 @@ class App extends Component {
       })
     }
   }
-
-// handle game logic function
-
-
-// handle increment function
-
-//
-
   render() {
     return (
       <div>
