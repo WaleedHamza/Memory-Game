@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from "./components/Navigation";
 import Wrapper from "./components/Wrapper";
 import Card from "./components/Card";
+import Title from "./components/Title";
 import initialFaces from "./faces.json";
 import Container from "./Container";
 import Row from "./Row";
@@ -52,14 +53,14 @@ class App extends Component {
   render() {
     return (
       <div>
-      <Nav 
-      score= {this.state.score}
-      highestScore= {this.state.highestScore}
-      />
+      <Nav />
       <Wrapper>
-        
           <div className="App">
             <Container>
+            <Title 
+              score= {this.state.score}
+              highestScore= {this.state.highestScore}
+              />
             <Row>
             {console.log(this.state)}
             {this.state.faces.map( faces => (

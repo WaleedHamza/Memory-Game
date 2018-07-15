@@ -1,9 +1,8 @@
-.navbar-nav {
-    display: flex;
-    justify-content: space-around;
+.navbar {
     width: 100%;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
 }
 
-.nav-item, h3{
-    color: brown;
+.navbar-brand{
+   margin: 0 auto;
 }
