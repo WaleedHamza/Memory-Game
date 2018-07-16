@@ -24,7 +24,6 @@ class App extends Component {
   };
 
   handleClick = (id, clicked) => {
-    console.log('inside the handle click',id, clicked)
     let currentState = {...this.state};
     if(clicked===true){
       this.setState({
@@ -37,7 +36,7 @@ class App extends Component {
       })
     }
     else{
-      console.log('not clicked')
+      // eslint-disable-next-line
       currentState.faces.map((face, index)=>{
         if(face.id===id){
           currentState.faces[index].clicked = true;
@@ -62,7 +61,6 @@ class App extends Component {
               highestScore= {this.state.highestScore}
               />
             <Row>
-            {console.log(this.state)}
             {this.state.faces.map( faces => (
                 <Card
                 shuffle={this.handleClick}
