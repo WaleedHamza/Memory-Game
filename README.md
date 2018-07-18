@@ -4,7 +4,7 @@ Click on an image to earn points, but don't click on it twice if you do you will
 
 <img width="1080" alt="memory_game_react" src="https://user-images.githubusercontent.com/33872841/42737895-95e1e0a6-8848-11e8-81a2-38665a3d5bd6.png">
 
-[Demo](https://waleedhamza.github.io/Memory-Game/).
+[Demo](https://stark-chamber-10470.herokuapp.com/).
 
 ### Installation
 To download the game locally, using Terminal or Command Line:
