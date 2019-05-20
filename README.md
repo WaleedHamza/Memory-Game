@@ -1,4 +1,4 @@
-# Memory-Game
+# Memory Game
 
 Click on an image to earn points, but don't click on it twice if you do you will lose!
 
@@ -10,6 +10,6 @@ Click on an image to earn points, but don't click on it twice if you do you will
 To download the game locally, using Terminal or Command Line:
 1. cd to the directory you want to copy the repo to and use this command `git clone git@github.com:WaleedHamza/Memory-Game.git`
 2. cd into the the repo and use this command  `yarn install` to install dependencies
-3. finally use this command  `yarn start` to run the aoolication.
+3. finally use this command  `yarn start` to run the application.
 
 Enjoy!
